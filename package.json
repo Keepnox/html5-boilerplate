@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "harp server --port 9001 & ./node_modules/browser-sync/bin/browser-sync.js start --proxy 'localhost:9001' --files 'public'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.3"
+  }
+}
