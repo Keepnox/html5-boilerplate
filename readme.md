@@ -13,13 +13,10 @@ git clone https://github.com/keepnox/html5-boilerplate
 cd html5-boilerplate
 ```
 
-## Requirements
+## Getting Started
 You need harp to use this boilerplate, you can install with following if you haven't already.
 ```
-npm i -g harp
-```
-
-## Development Server
-```bash
-harp server
+npm install -g harp
+npm install
+npm start
 ```
